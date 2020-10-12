@@ -1,0 +1,44 @@
+body{
+  background-color: #FFD700;
+}
+a{
+  background-color:red;
+}
+frame{
+  border: 2px;
+  bordercolor: green;
+}
+.History
+{
+  position: fixed;
+  left: 105px;
+  top: 100px;
+  width: 300px;
+  margin: 7px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+  background: #bc0;
+}
+.Klip{
+  position: fixed;
+  left: 105px;
+  top: 100px;
+  width: 800px;
+  margin: 7px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+  background: #bc0;
+}
+.Audio{
+  position: fixed;
+  left: 105px;
+  top: 100px;
+  width: 300px;
+  margin: 7px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+  background: #bc0;
+}

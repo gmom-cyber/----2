@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег AREA</title>
+  <style type="text/css">
+  </style>
+ </head>
+ <body>
+		<p>Выбери фигуру:</p>
+    <img src ="red_rect.jpg"  usemap = "#figura1">
+		<map name = "figura1" >
+			<area shape = "rect" coords = "64,105,440,261" href = "red.html" alt = "Красный квадрат" >
+    </map>
+    <img src ="green_circle.png" usemap = "#figura2">
+    <map name="figura2">
+      <area shape="circle" coords="129,97,85" href="green.html" alt="Зеденый круг">
+    </map>
+    <img src="Blue_Star.png" usemap = "#figura3">
+    <map name="figura3">
+      <area shape="poly" coords="10,175,171,170,225,14,278,170,436,176,310,277,357,436,224,342,93,437,140,276" href="blue.html">
+    </map>
+
+	</body>
+</html>
